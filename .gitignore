@@ -1,0 +1,38 @@
+# Ignore Python compiled bytecode files
+__pycache__/
+*.pyc
+
+# Ignore database files
+*.sqlite3
+
+# Ignore log files
+*.log
+
+# Ignore generated media files
+media/
+
+# Ignore virtual environment directories
+venv/
+env/
+*.env
+
+# Ignore local settings
+local_settings.py
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore system and temporary files
+__MACOSX/
+Thumbs.db
+.DS_Store
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore migration files if using South or Django migrations
+/migrations/
+
+# Ignore any local customizations to settings
+/local_settings.py
